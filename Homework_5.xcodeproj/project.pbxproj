@@ -10,6 +10,7 @@
 		BC320FECB6D46546D72587A4 /* Pods_Homework_5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED079024600343C94105221 /* Pods_Homework_5.framework */; };
 		BE4229DB29157D9E00B255AD /* ShoppingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4229DA29157D9E00B255AD /* ShoppingItem.swift */; };
 		BE4229DE2915AA7900B255AD /* ShoppingItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4229DD2915AA7900B255AD /* ShoppingItemController.swift */; };
+		BE8FB9262915B3620053F2F4 /* ViewControllerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8FB9252915B3610053F2F4 /* ViewControllerEx.swift */; };
 		BE9496E32915674A007842F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9496E22915674A007842F0 /* AppDelegate.swift */; };
 		BE9496E52915674A007842F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9496E42915674A007842F0 /* SceneDelegate.swift */; };
 		BE9496E72915674A007842F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9496E62915674A007842F0 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 		5CDB59C1C705F13158103DFF /* Pods-Homework_5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework_5.debug.xcconfig"; path = "Target Support Files/Pods-Homework_5/Pods-Homework_5.debug.xcconfig"; sourceTree = "<group>"; };
 		BE4229DA29157D9E00B255AD /* ShoppingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItem.swift; sourceTree = "<group>"; };
 		BE4229DD2915AA7900B255AD /* ShoppingItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItemController.swift; sourceTree = "<group>"; };
+		BE8FB9252915B3610053F2F4 /* ViewControllerEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerEx.swift; sourceTree = "<group>"; };
 		BE9496DF2915674A007842F0 /* Homework_5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework_5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE9496E22915674A007842F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE9496E42915674A007842F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,14 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		BE8FB9242915B33D0053F2F4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BE8FB9252915B3610053F2F4 /* ViewControllerEx.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		BE9496D62915674A007842F0 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +112,7 @@
 		BE9496E12915674A007842F0 /* Homework_5 */ = {
 			isa = PBXGroup;
 			children = (
+				BE8FB9242915B33D0053F2F4 /* Extensions */,
 				BE4229DC2915AA6000B255AD /* Controllers */,
 				BE4229D929157D6D00B255AD /* RealmModels */,
 				BE9496F629156782007842F0 /* Podfile */,
@@ -237,6 +248,7 @@
 				BE9496E32915674A007842F0 /* AppDelegate.swift in Sources */,
 				BE4229DB29157D9E00B255AD /* ShoppingItem.swift in Sources */,
 				BE9496E52915674A007842F0 /* SceneDelegate.swift in Sources */,
+				BE8FB9262915B3620053F2F4 /* ViewControllerEx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
